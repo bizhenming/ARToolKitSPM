@@ -6,7 +6,6 @@
 //
 
 import ARToolKitSystemLib
-
 //public func getARToolKitVersion() -> UInt32 {
 //    return arGetVersion()
 //}
