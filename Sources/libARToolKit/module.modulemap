@@ -1,0 +1,22 @@
+//
+//  File.swift
+//  ARToolKitSPM
+//
+//  Created by Benjamin on 2023/03/31.
+//
+
+module ARToolKitSystemLib {
+    header "inculde/AR/ar.h"
+    header "inculde/AR/config.h"
+    header "inculde/AR/video.h"
+    header "inculde/AR/param.h"
+    header "inculde/AR/arMulti.h"
+    link "libAR"
+    link "libAR2"
+    link "libARICP"
+    link "libARMulti"
+    link "libARUtil"
+    link "libARvideo"
+    link "libcurl"
+    export *
+}

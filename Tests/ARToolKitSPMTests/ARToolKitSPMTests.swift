@@ -8,4 +8,8 @@ final class ARToolKitSPMTests: XCTestCase {
         // results.
         XCTAssertEqual(ARToolKitSPM().text, "Hello, World!")
     }
+    
+    func testARToolKitGetVersion(){
+//        XCTAssertNotEqual(getARToolKitVersion(), 5.4)
+    }
 }
