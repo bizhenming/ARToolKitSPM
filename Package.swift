@@ -20,14 +20,16 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .systemLibrary(
-                    name: "ARToolKitSystemLib",
-                    path: "modulemap",
-                    pkgConfig: nil,
-                    providers: []),
-        
+            name: "ARToolKitSystemLib",
+            path: "modulemap",
+            pkgConfig: nil,
+            providers: []),
         .target(
             name: "ARToolKitSPM",
-            dependencies: ["ARToolKitSystemLib"]),
+            dependencies: ["ARToolKitSystemLib"],
+            cSettings: [
+                .headerSearchPath("../Sources/libARToolKit/include"),
+            ]),
         .testTarget(
             name: "ARToolKitSPMTests",
             dependencies: ["ARToolKitSPM"]),

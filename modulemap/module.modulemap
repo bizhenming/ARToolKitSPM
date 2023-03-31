@@ -6,12 +6,12 @@
 //
 
 module ARToolKitSystemLib {
-    header "../Sources/libARToolKit/include/AR/ar.h"
-    header "../Sources/libARToolKit/include/AR/config.h"
-    header "../Sources/libARToolKit/include/AR/video.h"
-    header "../Sources/libARToolKit/include/AR/param.h"
-    header "../Sources/libARToolKit/include/AR/arMulti.h"
-    header "../Sources/libARToolKit/include/AR/ARToolKitWrapper.h"
+    header "AR/ar.h"
+    header "AR/config.h"
+    header "AR/video.h"
+    header "AR/param.h"
+    header "AR/arMulti.h"
+    header "AR/ARToolKitWrapper.h"
     link "ARToolKit"
     export *
 }
