@@ -6,11 +6,11 @@
 //
 
 module ARToolKitSystemLib {
-    header "inculde/AR/ar.h"
-    header "inculde/AR/config.h"
-    header "inculde/AR/video.h"
-    header "inculde/AR/param.h"
-    header "inculde/AR/arMulti.h"
+    header "include/AR/ar.h"
+    header "include/AR/config.h"
+    header "include/AR/video.h"
+    header "include/AR/param.h"
+    header "include/AR/arMulti.h"
     link "libAR"
     link "libAR2"
     link "libARICP"
