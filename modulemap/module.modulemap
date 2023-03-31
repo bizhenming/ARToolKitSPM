@@ -8,7 +8,7 @@
 module ARToolKitSystemLib {
     header "AR/ar.h"
     header "AR/config.h"
-    header "AR/video.h"
+//    header "AR/video.h"
     header "AR/param.h"
     header "AR/arMulti.h"
     header "AR/ARToolKitWrapper.h"

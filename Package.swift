@@ -28,7 +28,7 @@ let package = Package(
             name: "ARToolKitSPM",
             dependencies: ["ARToolKitSystemLib"],
             cSettings: [
-                .headerSearchPath("../Sources/libARToolKit/include"),
+                .headerSearchPath("include"),
             ]),
         .testTarget(
             name: "ARToolKitSPMTests",
