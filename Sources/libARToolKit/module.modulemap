@@ -1,0 +1,16 @@
+//
+//  File.swift
+//  ARToolKitSPM
+//
+//  Created by Benjamin on 2023/03/31.
+//
+
+module ARToolKitSystemLib {
+    header "include/AR/ar.h"
+//    header "include/AR/config.h"
+//    header "include/AR/video.h"
+//    header "include/AR/param.h"
+//    header "include/AR/arMulti.h"
+    //    link "ARToolKit"
+    export *
+}
