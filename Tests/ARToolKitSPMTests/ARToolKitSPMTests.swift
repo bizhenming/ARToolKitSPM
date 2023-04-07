@@ -1,7 +1,5 @@
 import XCTest
-import ARToolKitSystemLib
 @testable import ARToolKitSPM
-
 
 final class ARToolKitSPMTests: XCTestCase {
     func testExample() throws {
@@ -9,7 +7,7 @@ final class ARToolKitSPMTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
 //        XCTAssertEqual(ARToolKitSPM().text, "Hello, World!")
-        
+//        let ar = 
     }
     
     func testARToolKitGetVersion(){

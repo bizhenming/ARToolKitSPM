@@ -5,12 +5,16 @@
 //  Created by Benjamin on 2023/03/31.
 //
 
-module ARToolKitSystemLib {
+module C_ARToolKit {
+//   umbrella header "include/umbrella.h"
     header "include/AR/ar.h"
-//    header "include/AR/config.h"
+    header "include/AR/config.h"
+    
 //    header "include/AR/video.h"
 //    header "include/AR/param.h"
 //    header "include/AR/arMulti.h"
-    //    link "ARToolKit"
+
+
     export *
+    link "cARToolKit"
 }
